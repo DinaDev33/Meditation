@@ -1,0 +1,68 @@
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: azure;
+ border-radius: 20px;
+   
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+
+
+#btn-container {
+  display: flex;
+  justify-content: space-around;
+
+} 
+
+#btn {
+  margin-top: 200px;
+  background: azure; 
+  padding: 25px;
+  border: none;
+  border-radius: 20px;
+}
+
+#btn:hover {
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); 
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+@media all and (max-width: 500px) {
+  video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  }
+
+#btn {
+
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+}
