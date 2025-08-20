@@ -28,7 +28,7 @@ if (window.innerWidth <= 500) {
   video.autoplay = false;
   video.load();
 }
-const timer = 1;
+const timer = 3;
 let amountTime = timer*60;
 
 function calculateTime(){
